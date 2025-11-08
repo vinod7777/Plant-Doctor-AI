@@ -1,0 +1,10 @@
+# PyTorch / Model files
+*.pt
+*.pth
+
+# Output directory from training
+runs/
+
+# Python cache
+__pycache__/
+*.pyc

@@ -11,6 +11,7 @@ CKPT = "runs/best.pt"
 
 # ---- load checkpoint ----
 ckpt = torch.load(CKPT, map_location="cpu", weights_only=False)
+ckpt = torch.load(CKPT, map_location="cpu", weights_only=True)
 classes = list(ckpt.get("classes", []))
 num_classes = len(classes)
 
