@@ -1,0 +1,11 @@
+torch
+numpy
+opencv-python-headless
+gradio
+fastapi
+uvicorn
+timm
+scikit-learn
+pandas
+albumentations
+rich
